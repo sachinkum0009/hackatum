@@ -1,38 +1,70 @@
-# RLearnChat
+# Getting Started with Create React App
 
-### Hackatum
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A GPT-RL app which helps students learn.
+## Available Scripts
 
-Motivation:
+In the project directory, you can run:
 
-Each student learns differently, has different learning styles and needs. Therefore the teacher must cater their teaching strategy to suit the students needs.
+### `npm start`
 
-Problem:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-In traditional schooling, all students undergo the same curriculum, this one-size-fits-all style of education is not suitable for individual students.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Solution:
+### `npm test`
 
-Goal oriented learning, each student should have clear goals,-> understanding the topic, and the app should teach the student to learn the material, by learning the behaviour of the student.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Methodology:
+### `npm run build`
 
-Reinforcement learning can help the student achieve this, by having the machine be rewarded for the student's success. And changing its strategy according to the likelihood of achieving the best outcome.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Goal based search:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Expert-Guided Learning:
-The goal is simply to replicate the behaviour of the expert via observation and repeated observation. (Observation and learn)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Imitation Learning:
-The learner is following an expert, yet the expert is not perfect, and may have different goals. (Action reaction)
+### `npm run eject`
 
-References:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Wei 2022 - Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
-This paper tells us how we can improve on the GPT model, but prompting it with a chain of thought.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Zhao 2023 - Online Learning in Stackelberg Games with an Omniscient Follower
-This paper formulates online learning as a Stackelberg game, and demonstrates some use cases and theory.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

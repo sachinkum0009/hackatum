@@ -33,7 +33,7 @@ export default function App() {
   }
 
   async function processMessageToAssistant(chatMessages) {
-    const url = `http://localhost:4000`;
+    const url = `https://rl-gpt-backend.onrender.com`;
     let apiMessages = chatMessages.map((messageObject) => {
       let role = "";
       if (messageObject.sender === "assistant") {
